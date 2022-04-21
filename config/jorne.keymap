@@ -58,7 +58,7 @@
    &mt LWIN UNDER &lt RSE ESC  &kp Q &kp W &kp E &kp R &kp T             &kp Y &kp U &kp I &kp O &kp P          &kp BACKSPACE &kp ENTER
                 &lt ADJ TAB &kp A &kp S &kp D &kp F &kp G             &kp H &kp J &kp K &kp L &kp SEMI       &kp APOS    
                 &kp LSHFT    &kp Z &kp X &kp C &kp V &kp B             &kp B &kp N &kp M &kp COMMA &kp DOT  &lt RSE FSLH
-                             &kp LCTRL &lt LWR SPACE &kp LALT            &lt ADJ CAPS &kp RWIN &kp PSCRN
+                             &kp LCTRL &lt LWR SPACE &kp LALT            &lt ADJ CAPS &mt RWIN SPACE &kp PSCRN
                         >;
                 };
                 lower_layer {
