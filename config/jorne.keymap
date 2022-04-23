@@ -58,7 +58,7 @@
    &mt LWIN UNDER  &lt ADJ ESC  &kp Q  &kp W &kp E     &kp R          &kp T               &kp Y        &kp U          &kp I   &kp O     &kp P     &kp BACKSPACE  &kp ENTER
                    &lt RSE TAB  &kp A  &kp S &kp D     &kp F          &kp G               &kp H        &kp J          &kp K   &kp L     &kp UP  &kp EQUAL    
                    &kp LSHFT    &kp Z  &kp X &kp C     &kp V          &kp B               &kp B        &kp N          &kp M   &kp LEFT &kp DOWN   &kp RIGHT
-                                             &kp LCTRL &lt LWR SPACE  &kp LALT            &lt ADJ CAPS &mt RWIN SPACE &mt PSCRN DEL
+                                             &kp LCTRL &lt LWR SPACE  &kp LALT            &mt KP_NUM CAPS &mt RWIN SPACE &mt PSCRN DEL
                         >;
                 };
                 lower_layer {
@@ -95,10 +95,10 @@
 //       |      | HD  | SD  | BD  | PD  | ER  |   |     |     |     |     |     |      |
 //                          |     | RGB |     |   |     | OUT |     |
                         bindings = <
-   &trans &kp BACKSPACE  &kp BACKSPACE   &trans          &trans          &trans          &trans                    &none         &none         &none         &kp LBKT     &kp RBKT      &trans      &trans
+   &trans &kp BACKSPACE  &kp BACKSPACE   &kp DEL         &kp ENTER       &trans          &trans                    &none         &none         &none         &kp LBKT     &kp RBKT      &trans      &trans
           &kp MINUS      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4              &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1 &bt BT_SEL 0  &bt BT_CLR
           &kp STAR       &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &rgb_ug RGB_EFR           &none         &none         &none         &kp LBRC     &kp RBRC      &none
-                                                         &kp FSLH        &kp EQUAL       &kp DOT                   &trans        &trans        &trans 
+                                                         &kp FSLH        &kp EQUAL       &kp DOT                   &trans        &kp KP_N1        &trans 
                         >;
                 };
         };
